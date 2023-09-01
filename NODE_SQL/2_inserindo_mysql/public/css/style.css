@@ -1,0 +1,31 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(216, 250, 216);
+}
+
+h1{
+    text-align: center;
+}
+
+.form{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.form-control label input{
+    padding: 5px;
+}
