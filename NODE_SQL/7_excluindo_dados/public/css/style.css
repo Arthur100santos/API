@@ -1,0 +1,56 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(216, 250, 216);
+}
+
+h1{
+    text-align: center;
+}
+
+.form, .books-container{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.form-control label input{
+    padding: 5px;
+}
+
+/* BOOKS */
+.books-containerdiv{
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar ul li{
+    margin-left: 1rem;
+}
+
+.book.page{
+    padding: 2rem;
+}
+
+.book.page .container .editbook .container{
+    text-align: center;
+}
